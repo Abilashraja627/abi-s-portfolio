@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>abi's portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+               <h3>Hi..This is</h3>
+               <h1>Abilash Raja</h1>
+               <h3>i'm a <span class="multiple-text"></span></h3>
+               <p>Aspiring software developer with a solid foundation in front-end technologies like HTML, CSS, and JavaScript, and backend
+                development using Python.</p>
+
+                <div class="socialmedia">
+                    <a href="https://github.com/Abilashraja627"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abilash-raja-146090241/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/itz__andrew03?igsh=MWNiZ3M0d3E1cWdhYw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://mail.google.com/mail/u/2/#inbox"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <a href="Abilash's resume (1).pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="Untitled_design__5_-removebg-preview.png" >
+            </div>
+            
+            
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="abi.jpeg" height="350" width="290" >
+            </div>
+            <div class="about-content">
+                <h2 class="heading"> ABOUT <span>Me</span></h2>
+                <h3>Software Developer</h3>
+                <p>Aspiring software developer with a solid foundation in front-end technologies like HTML, CSS, and JavaScript, and backend
+                    development using Python. Eager to join a dynamic team where I can leverage my skills to create seamless user experiences
+                    and robust backend systems, contributing to innovative and impactful projects.</p>
+                
+                 
+                    <button onclick="showSkills()" class="btn">Show My Skills</button>
+
+    <div id="skills">
+        
+        <ul>
+            <li>Python Development</li>
+            <li>UI/UX Design</li>
+            <li>Html,Css</li>
+            <li>JavaScript</li>
+            <li>Sql</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+    </div>
+        </section>
+         <section class="service" id="service">
+            <h2 class="heading"><strong>My <span>Services</span></strong></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developement</h3>
+                <p>We provide custom web development, responsive design, e-commerce solutions, SEO, CMS, web apps, and ongoing maintenance for exceptional online experiences.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+       
+        
+            <div class="service-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>We create user-focused UI/UX designs with intuitive interfaces, responsive layouts, wireframing, prototyping, and usability testing for seamless experiences.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>    
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading"> Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="continer-box">
+                    <img src="travel app.webp" height="200">
+                    <div class="portfolio-layer">
+                        <h4>Travel App</h4>
+                        <p>Discover new destinations, plan trips effortlessly, and book on the go with our intuitive, all-in-one travel app for explorers.</p>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    
+                </div>
+                <div class="continer-box">
+                    <img src="iot image.png" height="200" width="300">
+                    <div class="portfolio-layer">
+                        <h4>Air Quality Monitor</h4>
+                        <p>Monitor real-time air quality with our IoT-powered application, providing accurate data, alerts, and insights to ensure a healthier environment.</p>
+                        <i class="fa-brands fa-searchengin"></i>
+                    </div>
+                </div>
+                <div class="continer-box">
+                    <img src="download.png" height="200">
+                    <div class="portfolio-layer">
+                        <h4>Video to Text Convertor</h4>
+                        <p>Easily convert videos into text with our Python-based tool, enabling efficient transcription, summarization, and content analysis for diverse needs.</p>
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Id">
+    </div>
+    <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+     <input type="submit" value="Send Message" class="btn">
+    </form>
+ </section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @abilashraja | All Rights Reserved</p>
+    </div>
+    <div class="footer-icon">
+        <a href="#"><i class="fa-solid fa-arrows-up-to-line"></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+    
+</body>
+</html>
